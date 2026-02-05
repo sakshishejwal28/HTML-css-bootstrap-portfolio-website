@@ -8,15 +8,16 @@ body {
 
 .navbar-nav {
     margin-left: 45%;
-      
      
 
 }
-.nav-container{
+
+.nav-container {
     padding-left: 15%;
     padding-right: 15%;
     background: #4475C1;
-    
+
+
 }
 
 .hero-section {
@@ -27,10 +28,11 @@ body {
     background: linear-gradient(135deg, #1e40af, #60a5fa);
     position: relative;
     overflow: hidden;
-    
-    
+
+
 }
-.hero-section ::before{
+
+.hero-section ::before {
     content: "";
     position: absolute;
     top: 0;
@@ -39,30 +41,60 @@ body {
     height: 100%;
     background: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c")no-repeat center/cover;
     opacity: 0.1;
-    z-index: 0;  
+    z-index: 0;
 }
- .hero-section h1{
-font-size: 3.2rem;
-font-weight: 600;
-z-index: 1;
-position: relative;    
+
+.hero-section h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    z-index: 1;
+    position: relative;
 }
-.section-tittle{
+
+.section-tittle {
     font-size: 2.3rem;
     font-weight: 600;
     color: #1e40af;
     margin-bottom: 20px;
 }
-.skill-card img{
+
+.skill-card img {
     width: 50px;
     height: 50px;
     text-align: center !important;
-    
-}
-.skill-card{
-    align-items: center;
-    padding: 15px;
-    
 
 }
- 
+
+.skill-card {
+    align-items: center;
+    padding: 15px;
+
+
+}
+.about-card{
+    background: rgb(190, 197, 201);
+}
+ .footer-section{
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #4475C1;
+    font-size: 150%;
+    list-style-type: none;
+
+ }
+.github-img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.project-card{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.contact-form{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
