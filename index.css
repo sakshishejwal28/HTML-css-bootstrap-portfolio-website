@@ -87,13 +87,12 @@ body {
 }
 .contact-form{
     background-color: #ffffff;
-    padding: 30px;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
  .map-container{
     background-color: #ffffff;
-  text-align: center;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
