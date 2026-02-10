@@ -15,7 +15,7 @@ body {
 .nav-container {
     padding-left: 15%;
     padding-right: 15%;
-    background: #4475C1;
+    background: #1E40AF;
 
 
 }
@@ -71,6 +71,11 @@ body {
 
 
 }
+@media (min-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }}
 .about-card{
     background: rgb(190, 197, 201);
 }
@@ -86,10 +91,18 @@ body {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+ .map-container{
+    background-color: #ffffff;
+  text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
  
 
 .footer-section{
-     background: #4475C1;
+      background:#1E40AF;
 
 }
         
@@ -103,14 +116,14 @@ body {
 
 }
 .skill-card,.project-card,.experience-card{
-    transition: transform 0.3s ease,box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
     justify-content: space-between;
      
 }
-.skill-card:hover,
-.project-card:hover,
+.skill-card:hover ,
+.project-card:hover ,
 .experience-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-15px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
